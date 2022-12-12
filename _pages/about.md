@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: PhD, from biomedical engineering to Python enthusiast.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Spain/France</p>
+    <p>University of Granada</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false # true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I started in the world of research in the University of Granada in an unexpected way. When I was finishing my civil engineering degree, I was looking for another career to pursue because I did not feel comfortable in that field. It was then that I discovered the Ultrasonics Lab at the University of Granada, where they applied the knowledge learned to biomechanics. That really caught my attention and enthusiasm quickly. This opportunity allowed me to become a co-founder of the spin-off [Innitius](https://www.innitius.com/). At the same time, a colleague specialized in law and patents proposed me to start a small project to help bring technology-based ideas to fruition, doing feasibility studies and protection of ideas. However, it was a task that required more time from us.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Since then, I have been looking for opportunities to diversify my training and see with different eyes a future that I had not even thought of. I am much more interested in applied research, which is not merely an explanation of fundamentals, which of course is also essential. Here my contact with physicians during certain projects to which I have been assigned has played a very important role. One realizes that multidisciplinarity is not only the combination of two a priori very different fields, but also the understanding of the point of view and way of working of others. I note that the system in Spain for obtaining a stable academic or scientific position is bordering on unhealthy competition. Therefore, I hope that my future lies in professional non-destructive evaluation, as I would like to work on truly revolutionary techniques that will help both industry and medicine. I believe that the course can give me that point of view outside the classical academic world.

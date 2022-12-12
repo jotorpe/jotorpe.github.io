@@ -12,8 +12,10 @@ profile:
     <p>Spain/France</p>
     <p>University of Granada</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+
+posts: true
+news: false  # includes a list of news items
+selected_papers: falsetrue # includes a list of papers marked as "selected={true}"
 social: false # true  # includes social icons at the bottom of the page
 ---
 

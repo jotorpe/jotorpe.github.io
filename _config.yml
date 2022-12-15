@@ -234,7 +234,7 @@ scholar:
   last_name: [Torres]
   first_name: [Jorge]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/

@@ -1,6 +1,6 @@
 # jotorpe.github.io
 
-Personal academic + industry website of Jorge Torres-Pérez, built with
+Personal academic + industry website of Jorge Torres Pérez, built with
 [Hugo Blox](https://hugoblox.com) (Academic CV template) and deployed to GitHub Pages
 by GitHub Actions.
 

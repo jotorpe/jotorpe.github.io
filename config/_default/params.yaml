@@ -13,7 +13,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Jorge Torres-Pérez"
+    name: "Jorge Torres Pérez"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: "LabTAU, INSERM"
     # Schema.org type for structured data
@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Ultrasound physics · HIFU simulation · Elastography"
     # Site meta description for search engines and social sharing
-    description: "Jorge Torres-Pérez: researcher in ultrasound, elastography and HIFU therapy simulation, open to research and industry collaborations."
+    description: "Jorge Torres Pérez: researcher in ultrasound, elastography and HIFU therapy simulation, open to research and industry collaborations."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "" # Twitter/X handle for Twitter Cards (without @)
@@ -34,11 +34,11 @@ hugoblox:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
     mode: system
     # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
+    pack: "coffee"
     # Optional: Override theme pack colors
     colors:
-      primary: "#1b5e8c" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: "teal"
+      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
+      secondary: ""
       neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
     # Optional: Mode-specific color overrides
     colors_light: {}
@@ -89,7 +89,7 @@ hugoblox:
     # Feature toggles
     search: true
     theme_toggle: true
-    theme_picker: true
+    theme_picker: false
     language_switcher: false
     # Call-to-action button
     cta:
@@ -114,7 +114,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} Jorge Torres-Pérez. This work is licensed under {license}"
+    notice: "© {year} Jorge Torres Pérez. This work is licensed under {license}"
     license:
       type: cc # cc | custom
       allow_derivatives: false

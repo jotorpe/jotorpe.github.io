@@ -2,9 +2,9 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Jorge Torres-Pérez
+  display: Jorge Torres Pérez
   given: Jorge
-  family: Torres-Pérez
+  family: Torres Pérez
 postnominals:
   - PhD
 role: Postdoctoral Researcher · HIFU Therapy Simulation

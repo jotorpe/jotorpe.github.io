@@ -31,9 +31,6 @@ links:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/~jorge-torres/
     label: LinkedIn
-  - icon: brands/github
-    url: https://github.com/jotorpe
-    label: GitHub
 
 interests:
   - Elastography
@@ -158,6 +155,28 @@ skills:
       - label: Teaching, events & teamwork
         description: TA, ITEC conference organizer, AFE secretary
         icon: hero/user-group
+  - name: Languages
+    items:
+      - label: Spanish
+        description: Native
+        icon: hero/language
+      - label: English
+        description: C1
+        icon: hero/language
+      - label: French
+        description: B2
+        icon: hero/language
+
+languages:
+  - name: Spanish
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: C1
+  - name: French
+    level: 3
+    label: B2
 
 awards:
   - title: Python for Data Science and Artificial Intelligence

@@ -1,0 +1,10 @@
+{{ $item := .item }}
+<a href="{{ $item.RelPermalink }}" class="group block h-full rounded-xl border border-gray-200 dark:border-gray-700 bg-white/70 dark:bg-gray-800/60 p-6 shadow-sm hover:shadow-lg hover:border-primary-400 transition-all">
+  <h3 class="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-primary-600 dark:group-hover:text-primary-400">{{ $item.Title }}</h3>
+  {{ with $item.Params.summary }}<p class="mt-2 text-sm text-gray-600 dark:text-gray-300">{{ . | markdownify }}</p>{{ end }}
+  {{ with $item.Params.tags }}
+  <div class="mt-4 flex flex-wrap gap-2">
+    {{ range . }}{{ if ne . "Highlight" }}<span class="rounded-full bg-primary-50 dark:bg-primary-900/40 px-2.5 py-0.5 text-xs text-primary-700 dark:text-primary-300">{{ . }}</span>{{ end }}{{ end }}
+  </div>
+  {{ end }}
+</a>

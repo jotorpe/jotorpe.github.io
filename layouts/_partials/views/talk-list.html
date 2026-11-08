@@ -1,0 +1,11 @@
+{{/* One talk. Shows only the year: the CV does not give exact dates. */}}
+{{ $item := .item }}
+<li class="ms-6">
+  <span class="absolute -start-1.5 mt-2 h-3 w-3 rounded-full bg-primary-500 ring-4 ring-white dark:ring-gray-900"></span>
+  <p class="text-sm font-semibold text-primary-600 dark:text-primary-400">
+    {{ $item.Date.Format "2006" }}{{ with $item.Params.location }} · {{ . }}{{ end }}
+  </p>
+  <h3 class="mt-1 text-lg font-semibold text-gray-900 dark:text-white">{{ $item.Title }}</h3>
+  {{ with $item.Params.event_name }}<p class="text-gray-600 dark:text-gray-300">{{ . }}</p>{{ end }}
+  {{ with $item.Params.kind }}<p class="mt-1 text-sm text-gray-500 dark:text-gray-400">{{ . }}</p>{{ end }}
+</li>

@@ -1,0 +1,179 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Jorge Torres-Pérez
+  given: Jorge
+  family: Torres-Pérez
+postnominals:
+  - PhD
+role: Postdoctoral Researcher · HIFU Therapy Simulation
+bio: |
+  Postdoctoral researcher at LabTAU (INSERM, France), developing numerical
+  tools for high-intensity focused ultrasound (HIFU) therapy of prostate cancer.
+  Civil engineer turned ultrasound physicist, with a PhD in elastography and
+  experience as co-founder of a med-tech spin-off.
+
+affiliations:
+  - name: LabTAU, INSERM
+    url: https://www.labtau.fr/
+
+links:
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=h3PI7lEAAAAJ&hl=en
+    label: Google Scholar
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0001-9488-6794
+    label: ORCID
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Jorge-Torres-31
+    label: ResearchGate
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/~jorge-torres/
+    label: LinkedIn
+  - icon: brands/github
+    url: https://github.com/jotorpe
+    label: GitHub
+
+interests:
+  - Elastography
+  - Viscoelasticity & Nonlinearity
+  - Deep Learning
+  - Acoustic / Thermal Simulation
+  - HIFU
+
+education:
+  - degree: PhD in Non-destructive Evaluation of Materials and Structures
+    institution: University of Granada, Spain
+    year: 2019 – 2023
+    start: 2019-01-01
+    end: 2023-12-31
+    summary: |
+      Thesis: *Application of dynamic elastography to the mechanical characterization
+      of viscoelastic soft media via torsional, longitudinal, and transverse shear waves.*
+      Supervisor: Prof. Guillermo Rus. Fully funded by the Spanish Ministry of Science.
+  - degree: MSc in Structures
+    institution: University of Granada, Spain
+    year: 2016 – 2017
+    start: 2016-01-01
+    end: 2017-12-31
+    summary: |
+      Final project: Evolutive biomechanical properties and characterization of cervical tissue.
+  - degree: BSc in Civil Engineering
+    institution: University of Granada, Spain
+    year: 2011 – 2016
+    start: 2011-01-01
+    end: 2016-12-31
+    summary: |
+      Final project: Improved design of a torsional wave tissue diagnostic device.
+
+# Dates below: the CV gives only years for most entries, so months are placeholders
+# and the pages display years only. Exact months are written in the summaries.
+experience:
+  - role: Postdoctoral Researcher
+    org: LabTAU, INSERM (France)
+    start: 2024-02-01
+    summary: |
+      Since February 2024. Enhancing numerical tools for HIFU therapy of prostate cancer:
+      coupled thermoacoustic simulation, retrosimulation of delivered treatments against
+      post-treatment MRI, and development of **SimTAU**, a GPU-accelerated platform for
+      HIFU treatment planning and analysis.
+  - role: Contract Researcher
+    org: University of Granada (Spain)
+    start: 2023-09-01
+    end: 2023-12-31
+    summary: |
+      September–December 2023. Project drafting and data analysis.
+  - role: Visiting Researcher
+    org: LabTAU, INSERM (France)
+    start: 2022-03-01
+    end: 2023-04-30
+    summary: |
+      Two research stays (March–June 2022 and January–April 2023). Experiments with
+      ultrafast ultrasound imaging and analysis of wave propagation in complex media,
+      namely viscoelastic liquids.
+  - role: PhD Candidate
+    org: University of Granada (Spain)
+    start: 2019-01-01
+    end: 2023-12-31
+    summary: |
+      Dynamic elastography of viscoelastic soft media (torsional, longitudinal and shear
+      waves). Adjunct teaching assistant in *Strength of Materials* and *Mechanics and
+      Mechanisms* (fall 2019, 2020, 2021); co-author of a Strength of Materials academic
+      book (2020).
+  - role: Laboratory Research Staff
+    org: University of Granada (Spain)
+    start: 2018-01-01
+    end: 2019-12-31
+    summary: |
+      Full-time technician: patent writing, prototype design, technical documentation for
+      companies, pilot study measurements and student training.
+  - role: Co-founder
+    org: Innitius (Spain)
+    start: 2018-01-01
+    end: 2018-12-31
+    summary: |
+      Spin-off company providing diagnostics for women's health through non-invasive,
+      acoustics-based technologies. [More about Innitius](https://www.innitius.com/).
+
+skills:
+  - name: Modelling & Simulation
+    items:
+      - label: Acoustic & thermal simulation
+        description: HIFU fields, heat deposition, thermal dose
+        icon: hero/fire
+      - label: GPU-accelerated computing
+        description: SimTAU treatment-planning platform
+        icon: hero/cpu-chip
+      - label: Wave propagation & nonlinear acoustics
+        description: Heterogeneous and viscoelastic media
+        icon: hero/signal
+  - name: Data & AI
+    items:
+      - label: Python
+        description: Scientific computing, data science and AI
+        icon: brands/python
+      - label: Deep learning
+        icon: hero/sparkles
+      - label: Signal & image processing
+        description: Ultrasound and optical elastography data
+        icon: hero/photo
+  - name: Experimental & Hardware
+    items:
+      - label: Ultrafast ultrasound imaging
+        icon: hero/viewfinder-circle
+      - label: Elastography (shear, torsional, optical)
+        icon: hero/beaker
+      - label: Prototype design & pilot studies
+        description: Torsional wave sensors, Arduino
+        icon: hero/wrench-screwdriver
+  - name: Innovation & Communication
+    items:
+      - label: Patents & software IP
+        description: Patent drafting, software invention disclosure
+        icon: hero/light-bulb
+      - label: Grant & project proposals
+        description: Including ERC proposal training
+        icon: hero/document-text
+      - label: Teaching, events & teamwork
+        description: TA, ITEC conference organizer, AFE secretary
+        icon: hero/user-group
+
+awards:
+  - title: Python for Data Science and Artificial Intelligence
+    awarder: Centro Mediterráneo, Spain
+    date: "2021-01-01"
+    icon: hero/academic-cap
+  - title: Writing Proposal Seminars (ERC grants, bibliographic search, patent writing)
+    awarder: Centro Mediterráneo, Spain
+    date: "2021-01-01"
+    summary: 2020–2021
+    icon: hero/academic-cap
+  - title: Advanced Arduino Course
+    awarder: Darwin Eventur, Spain
+    date: "2017-01-01"
+    icon: hero/academic-cap
+  - title: First Aid Course
+    awarder: Centro Mediterráneo, Spain
+    date: "2017-01-01"
+    icon: hero/academic-cap

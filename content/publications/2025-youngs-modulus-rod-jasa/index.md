@@ -1,0 +1,25 @@
+---
+title: "Young's modulus estimation of a soft viscoelastic rod using optical elastography"
+authors:
+  - "J. Zhu"
+  - "F. Legrand"
+  - "S. Grégoire"
+  - "me"
+  - "S. Catheline"
+  - "B. Giammarinaro"
+date: '2025-10-01'
+publication_types: ['article-journal']
+publication:
+  name: "The Journal of the Acoustical Society of America"
+  volume: "158"
+  issue: "4"
+  pages: "3203-3209"
+hugoblox:
+  ids:
+    doi: "10.1121/10.0039661"
+abstract: "Viscoelastic rods under tension play an important role in medical imaging. The objective is to study longitudinal guided waves in soft viscoelastic rods, for which the wavespeed is directly related to the Young's modulus. The challenge of this work is to reconcile the quantitative estimation of Young's modulus using a conventional tensile test and wave measurements of Young wave velocity. Experiments are conducted using optical elastography. A high-speed camera is used on a rod fabricated with a quasi-incompressible silicone-based material. Wave speed and attenuation are estimated using a combination of transient and modal approaches. The viscoelastic parameters are then extracted using a Zener model, before being compared with tensile tests. The elastic behavior of the material was shown to be linear up to 20% deformation, but it obeys a three-element Zener rheological model, which is relatively complex in the range of frequencies used. The viscoelastic parameters were estimated. Young's modulus was calculated from these parameters and from the tensile tests. Despite the two main pitfalls, nonlinearity and rheology of the material, a good agreement between the static and dynamic measurements is found."
+tags:
+  - "Optical elastography"
+  - "Viscoelasticity"
+featured: false
+---
